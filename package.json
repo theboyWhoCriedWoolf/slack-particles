@@ -1,7 +1,7 @@
 {
-  "name": "slack",
+  "name": "slack-particles",
   "version": "1.0.0",
-  "description": "",
+  "description": "A fun play around with Slack Bots, RTM, Slach Commands and particles",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,10 @@
     "dev": "npm run server & npm run webpack",
     "start": "npm run server & npm run webpack-prod"
   },
-  "author": "",
+  "engines": {
+   "node": ">=4.4.5"
+ },
+  "author": "Tal Woolf",
   "license": "ISC",
   "dependencies": {
     "babel": "^6.3.13",
