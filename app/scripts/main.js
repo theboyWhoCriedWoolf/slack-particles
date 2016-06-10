@@ -98,15 +98,12 @@ function addStats() {
  * handle canvas and window resizing
  */
 function resize( event ) {
-     console.log("resizing");
      let width  = document.body.clientWidth,
          height = document.body.clientHeight,
          colour = PIXEL_COLOURS[ Math.floor(Math.random()*PIXEL_COLOURS.length) ];
 
     sceneRender.resize(width, height);
     canvasText.resize(width, height);
-
-    console.warn( canvasText.currentString );
 
     canvasText.drawText( canvasText.currentString ).then( ( points )=> {
         sceneRender.updateText( points, colour );

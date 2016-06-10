@@ -12,8 +12,8 @@
     "start": "npm run server & npm run webpack-prod"
   },
   "engines": {
-   "node": ">=4.4.5"
- },
+    "node": ">=4.4.5"
+  },
   "author": "Tal Woolf",
   "license": "ISC",
   "dependencies": {
@@ -48,6 +48,7 @@
     "file-loader": "^0.8.5",
     "gsap": "^1.18.2",
     "morgan": "^1.7.0",
+    "mout": "^1.0.0",
     "node-sass": "^3.7.0",
     "sass-loader": "^3.1.2",
     "slackbots": "^0.5.1",
