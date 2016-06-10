@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    //- link(href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css')
+
+  body
+    canvas(class='wordCanvas')
+    div(class='root--canvas')
+
+    //- user panel
+    div(class='slack__info-panel-wraper')
+        div(class='slack__info-panel')
+            div(class='slack__info-panel-background')
+            div(class='slack__info-panel-inner')
+                 div(class='slack__user-square')
+                    div(class='slack__user-square-fill')
+                    div(class='slack__user-icon' style='background-image: url("https://secure.gravatar.com/avatar/f4cb1f6a10c6f60051d41f272d117aef.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0000-512.png")')
+
+                 div(class='slack__user-content')
+                     p(class='slack__user-name')
+
+    script(src='/libs/dat.gui.min.js')
+    script(src='/libs/pixi.min.js')
+    script(src='/bundle.js' async)

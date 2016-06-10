@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'FuturaCom-Medium';
+  src: url('FuturaCom-Medium.eot');
+  src: url('FuturaCom-Medium.woff2') format('woff2'),
+       url('FuturaCom-Medium.woff') format('woff'),
+       url('FuturaCom-Medium.ttf') format('truetype'),
+       url('FuturaCom-Medium.svg#FuturaCom-Medium') format('svg'),
+       url('FuturaCom-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
