@@ -4,6 +4,7 @@ import http             from 'http';
 import SlackBot         from './SlackBot';
 import bodyParser       from 'body-parser';
 import creds            from '../credentials.json';
+import routes           from './routes';
 
 // setup
 const app         = express(),
@@ -28,6 +29,11 @@ app.use(express.static( path.join(__dirname, '..', 'static' ) ));
 // parsing
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
+
+/**
+ * set application routes
+ */
+// routes( app );
 
 /**
 * render the htm and
