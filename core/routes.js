@@ -12,7 +12,7 @@ export default ( app ) => {
     app.post( slashCommand, (req, res) => {
         let { token, command } = req.body;
         if(token === reqtoken && command === slashCommand) {
-            /* handle command request /*
+            /* handle command request */
         }
     });
 }
