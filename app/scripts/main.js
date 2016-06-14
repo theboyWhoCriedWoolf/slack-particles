@@ -5,7 +5,6 @@ import CanvasText        from './CanvasText';
 import PixiRender        from './PixiRender';
 import Stats             from 'stats-js';
 import socketio          from './socketConnect';
-import Gui               from './utils/Gui';
 import toPixiColour      from './utils/toPixiColour';
 import InfoPanel         from './InfoPanel';
 import debounce          from 'mout/function/debounce'
