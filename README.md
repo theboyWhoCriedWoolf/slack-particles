@@ -9,14 +9,14 @@ Clone the repo or download the application then run `npm install`, installing re
 ## Requirements
 In order to start using the application you will need to set up a [Custom Slack Integration](https://api.slack.com/custom-integrations) and use the provided API token.
 
-You will also need to setup a Mongo DB. For an easy, quick and free solution check out  [mLab](https://mlab.com/) quickly get things up and running.
+You will also need to setup a Mongo DB. For an easy, quick and free solution check out  [mLab](https://mlab.com/) to quickly get things up and running.
 
 ## Running the application
 #### Development
 To start development mode run `npm run dev` which will compile the application and open a new browser window.
 
 #### Production
-To prepare the application for development run `npm run start` which will compile the application and start the server running at `http://localhost:8080`.
+To prepare the application for production run `npm run start` which will compile the application and start the server running at `http://localhost:8080`.
 
 #### Setting up Credentials
 Once you have set up a Custom Slack Integration and a MongoDB, you will need to populate the `credentials.json` with your Bot `token` and Mongo `dbUri` fields. Watch that you don't commit this file to a public repo.
